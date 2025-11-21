@@ -44,6 +44,13 @@
             padding: 10px;
             border-radius: 8px;
         }
+
+        span {
+            background: #ddd;
+            color: red;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 
@@ -51,15 +58,19 @@
     <div class="box">
         <h2>Luxe E-commerce</h2>
 
-        <button onclick="window.location.href='https://luxe-ecommerce.onrender.com'">User Website</button>
+        <a href="https://luxe-ecommerce.onrender.com" target="_blank">
+            <button>User Website</button>
+        </a>
 
-        <button onclick="window.location.href='https://luxe-admin-fyo6.onrender.com'">Admin Panel</button>
+        <a href="https://luxe-admin-fyo6.onrender.com" target="_blank">
+            <button>Admin Panel</button>
+        </a>
 
         <div class="admin-info">
-            <p><b>Admin Login</b></p>
-            <span>Use this for Admin Login Credentials</span>
-            <p>Email: admin@luxe.com</p>
-            <p>Password: admin@LUXE2025</p>
+            <h2><b>Admin Login</b></h2>
+            <p>"Use this for Admin Login Credentials"</p>
+            <p>Email: <span>admin@luxe.com</span></p>
+            <p>Password: <span>admin@LUXE2025</span></p>
         </div>
     </div>
 </body>
